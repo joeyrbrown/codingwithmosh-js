@@ -217,8 +217,11 @@ console.log('Application Refused', applicationRefused);
 --- Truthy (true)
 
 */
+// The Power of Logical OR (\\) with Non-boolean to provide default values.
 let userColor = undefined;
 let defaultColor = 'blue';
-let currentColor = userColor || defaultColor;
+let currentColor = userColor || defaultColor; // IF we have value we will use that if not we will set default.
 
 console.log(currentColor);
+
+// Bitwise Operators
